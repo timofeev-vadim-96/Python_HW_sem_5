@@ -10,7 +10,7 @@ first_numb = 3
 second_numb = 5
 
 def degree(a,b):
-    if b == 1: return a
+    if b == 0: return 1
     else:
         return a*degree(a,b-1)
 print(degree(first_numb,second_numb))
